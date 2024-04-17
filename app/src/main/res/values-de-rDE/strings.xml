@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MeuPrimeiroAppDio</string>
+    <string name="ola_mundo"><b>Hallo Welt!</b></string>
+    <string name="complemento">Die gewählte Sprache war Deutsch!</string>
+</resources>
