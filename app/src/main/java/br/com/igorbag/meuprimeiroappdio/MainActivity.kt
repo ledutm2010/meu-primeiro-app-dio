@@ -12,20 +12,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        if (Locale.getDefault().getLanguage().equals("pt")) {
-            logo.setImageResource(R.drawable.brasil);
+        if (Locale.getDefault().language.equals("pt")) {
+            logo.setImageResource(R.drawable.brasil)
         }
-        if (Locale.getDefault().getLanguage().equals("en")) {
-            logo.setImageResource(R.drawable.eua);
+        if (Locale.getDefault().language.equals("en")) {
+            logo.setImageResource(R.drawable.eua)
         }
-        if (Locale.getDefault().getLanguage().equals("es")) {
-            logo.setImageResource(R.drawable.espanha);
+        if (Locale.getDefault().language.equals("es")) {
+            logo.setImageResource(R.drawable.espanha)
         }
-        if (Locale.getDefault().getLanguage().equals("ja")) {
-            logo.setImageResource(R.drawable.japao);
+        if (Locale.getDefault().language.equals("ja")) {
+            logo.setImageResource(R.drawable.japao)
         }
-        if (Locale.getDefault().getLanguage().equals("de")) {
-            logo.setImageResource(R.drawable.alemanha);
+        if (Locale.getDefault().language.equals("de")) {
+            logo.setImageResource(R.drawable.alemanha)
         }
     }
 }
