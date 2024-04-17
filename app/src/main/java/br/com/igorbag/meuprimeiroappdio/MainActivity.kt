@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        logo = findViewById(R.id.imageView)
 
         if (Locale.getDefault().language.equals("pt")) {
             logo.setImageResource(R.drawable.brasil)
