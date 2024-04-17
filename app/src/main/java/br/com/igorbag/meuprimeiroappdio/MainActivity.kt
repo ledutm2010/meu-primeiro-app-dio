@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
+    //complementando o desafio
     lateinit var logo: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
